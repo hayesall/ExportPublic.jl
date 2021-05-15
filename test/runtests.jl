@@ -24,6 +24,8 @@ module ExportPublicTest
         @test add_squared(2, 2) == 8
         @test add_squared(4, 4) == 32
         @test_throws UndefVarError _square_it()
+        @test my_pi == 22/7
+        @test_throws UndefVarError _secret_pi
     end
 
     @testset "DemoModule.jl" begin
