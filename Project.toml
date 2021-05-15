@@ -1,5 +1,6 @@
 name = "ExportPublic"
 uuid = "ce21103b-dbf2-498b-b3c4-edbf725743bc"
+license = "MIT"
 authors = ["Alexander L. Hayes <alexander@batflyer.net>"]
 version = "0.1.0"
 
