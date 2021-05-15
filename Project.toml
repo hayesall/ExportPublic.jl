@@ -1,0 +1,10 @@
+name = "ExportPublic"
+uuid = "ce21103b-dbf2-498b-b3c4-edbf725743bc"
+authors = ["Alexander L. Hayes <alexander@batflyer.net>"]
+version = "0.1.0"
+
+[deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[compat]
+julia = "1.6"
