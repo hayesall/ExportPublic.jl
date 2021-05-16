@@ -1,7 +1,7 @@
 # ExportPublic.jl: Easily hide your implementation details
 
 This is a fork of [`ExportAll.jl`](https://github.com/JKRT/ExportAll.jl/)
-that helps you write modules with public and private methods.
+that helps you write modules with public and private symbols.
 
 If something starts with an underscore `_`, it will **not** be exported.
 
@@ -20,11 +20,11 @@ module SimpleMathExample
     a ^ 2
   end
 
-  @exportPublic()                           # <--- Export our Public methods
+  @exportPublic()                           # <--- Export our Public symbols
 end
 ```
 
-The "*Public*" methods are automatically exported:
+The "*Public*" symbols are automatically exported:
 
 ```julia
 julia> include("SimpleMathExample.jl")
